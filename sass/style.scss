@@ -1,0 +1,27 @@
+//variáveis
+$padrao: #7159c1;
+$white: #ffffff;
+
+body{
+    background-color: $padrao;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+a{
+    text-decoration: none;
+}
+
+.player{
+    .card{
+        margin: 0 auto;
+        width: 25rem;
+        max-width: 90%;
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+
+        h1{
+            text-align: center;
+        }
+    }  
+}
