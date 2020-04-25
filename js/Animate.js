@@ -34,13 +34,20 @@ class Animate {
     setCustomAnimation(x, y, z = 0){
         this.element.style.opacity = 0;
         this.element.style.transform = `translate3d(${x}px, ${y}px, ${z}px)`;
+    }   
+
+    setAnimationWrite(element){
+        let arrayText = element.innerHTML.split("");
+        element.innerHTML = ``;
+        arrayText.forEach((letra, i) => {
+            setTimeout(() => element.innerHTML += letra, 75*i);
+        })
     }
 
     setAnimationOpacity(){
         this.element.style.opacity = 0;
         this.element.style.transition = 1;
     }
-
 }
 
 export default Animate;
