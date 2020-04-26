@@ -8,8 +8,7 @@ const animacao = new Animate();
 animacao.setAnimationDown(card, 150);
 animacao.startAnimate(card);
 
-animacao.setAnimationWrite(h2);
-
 animacao.setAnimationOpacity(h2);
 animacao.startAnimate(h2);
 
+animacao.setAnimationWrite(h2);

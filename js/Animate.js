@@ -1,8 +1,4 @@
 class Animate {
-    // constructor(element){
-    //     element = element;       
-    // } 
-
     startAnimate(element){
         window.addEventListener("load", () => {
             element.style.opacity = 1;
