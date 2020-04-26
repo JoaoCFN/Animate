@@ -1,39 +1,39 @@
 class Animate {
-    constructor(element){
-        this.element = element;       
-    } 
+    // constructor(element){
+    //     element = element;       
+    // } 
 
-    startAnimate(){
+    startAnimate(element){
         window.addEventListener("load", () => {
-            this.element.style.opacity = 1;
-            this.element.style.transform = `translate3d(0, 0, 0)`;
-            this.element.style.transition = `1s`;
+            element.style.opacity = 1;
+            element.style.transform = `translate3d(0, 0, 0)`;
+            element.style.transition = `1s`;
         })  
     }
 
-    setAnimationUp(value){
-        this.element.style.opacity = 0;
-        this.element.style.transform = `translate3d(0, -${value}px, 0)`;
+    setAnimationUp(element, value){
+        element.style.opacity = 0;
+        element.style.transform = `translate3d(0, -${value}px, 0)`;
     }
 
-    setAnimationDown(value){
-        this.element.style.opacity = 0;
-        this.element.style.transform = `translate3d(0, ${value}px, 0)`;
+    setAnimationDown(element, value){
+        element.style.opacity = 0;
+        element.style.transform = `translate3d(0, ${value}px, 0)`;
     }
 
-    setAnimationRight(value){
-        this.element.style.opacity = 0;
-        this.element.style.transform = `translate3d(-${value}px, 0, 0)`;
+    setAnimationRight(element, value){
+        element.style.opacity = 0;
+        element.style.transform = `translate3d(-${value}px, 0, 0)`;
     }
 
-    setAnimationLeft(value){
-        this.element.style.opacity = 0;
-        this.element.style.transform = `translate3d(${value}px, 0, 0)`;
+    setAnimationLeft(element, value){
+        element.style.opacity = 0;
+        element.style.transform = `translate3d(${value}px, 0, 0)`;
     }
 
-    setCustomAnimation(x, y, z = 0){
-        this.element.style.opacity = 0;
-        this.element.style.transform = `translate3d(${x}px, ${y}px, ${z}px)`;
+    setCustomAnimation(element, x, y, z = 0){
+        element.style.opacity = 0;
+        element.style.transform = `translate3d(${x}px, ${y}px, ${z}px)`;
     }   
 
     setAnimationWrite(element){
@@ -44,9 +44,8 @@ class Animate {
         })
     }
 
-    setAnimationOpacity(){
-        this.element.style.opacity = 0;
-        this.element.style.transition = 1;
+    setAnimationOpacity(element){
+        element.style.opacity = 0;
     }
 }
 
