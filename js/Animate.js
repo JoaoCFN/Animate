@@ -1,10 +1,8 @@
 class Animate {
     startAnimate(element){
-        window.addEventListener("load", () => {
-            element.style.opacity = 1;
-            element.style.transform = `translate3d(0, 0, 0)`;
-            element.style.transition = `1s`;
-        })  
+        element.style.opacity = 1;
+        element.style.transform = `translate3d(0, 0, 0)`;
+        element.style.transition = `1s`;
     }
 
     setAnimationUp(element, value){
