@@ -1,8 +1,8 @@
-# Animate
+# Animate 🎉
 Classe em JavaScript feita para facilitar o trabalho com animações básicas em HTML e CSS.
 
 ## Introdução
-Para a classe executar as animações, você não precisa manipular nada do seu CSS. Dentro do próprio script, as regras CSS para as animações já estão configuradas.
+Para a classe executar as animações, você não precisa manipular nada do seu CSS. Dentro do próprio script, as regras CSS já estão configuradas.
 
 ## Como começar
 Para usar o script, você deve adicioná-lo a pasta do seu projeto e seguir os passos abaixo:
@@ -16,7 +16,7 @@ Para usar o script, você deve adicioná-lo a pasta do seu projeto e seguir os p
      
      `<script type="module" src="js/exemplo.js"></script>`
      
- 2. Agora é seu script já está pronto para receber imports. Seguindo o exemplo acima, dentro do nosso arquivo `exemplo.js` vamos importar a classe animate.
+ 2. Agora seu script já está pronto para receber imports. Seguindo o exemplo acima, dentro do nosso arquivo `exemplo.js` vamos importar a classe animate.
  
     `import Animate from "Animate.js";`
     
@@ -32,7 +32,6 @@ Para usar o script, você deve adicioná-lo a pasta do seu projeto e seguir os p
        <div class="card"></div>
 
    #### JS 
-       import Animate from "../Animate.js";
 
        (function anima_card(){
            /* definindo var que recebe a classe */
@@ -46,7 +45,7 @@ Para usar o script, você deve adicioná-lo a pasta do seu projeto e seguir os p
            })
        })(); 
 
-   Como descrito no exemplo acima, após instanciar o objeto animação e capturar o elemento que será animado, você precisará apenas setar a animação de sua preferência. Neste caso usamos o método `setAnimationRight()`. Outra observação muito importante para fazer com que a animação rode é a presença do Event Listener de load na página. Assim toda vez que a página for carregada, o método `startAnimate() é acionado`. Isso deve ser obrigatório no seu código. :wink:
+   Como descrito no exemplo acima, após instanciar o objeto animação e capturar o elemento que será animado, você precisará apenas setar a animação de sua preferência. Neste caso usamos o método `setAnimationRight()`. Outra observação muito importante para fazer com que a animação rode é a presença do Event Listener de load na página. Assim toda vez que a página for carregada, o método `startAnimate()` é acionado. Isso deve ser obrigatório no seu código. 
 
  #### Lista de métodos :page_facing_up:
 
@@ -75,5 +74,11 @@ Para usar o script, você deve adicioná-lo a pasta do seu projeto e seguir os p
  **De opacidade: recebe o elemento a ser animado e faz a transição na opacidade :star:**
 
  `setAnimationOpacity(element)`
+ 
+## Alterações
+Caso você encontre falhas ou deseje sugerir melhorias, fique a vontade.
+
+**Espero que ajude nos seus próximos projetos. :wink::grin:** 
+
 
 
