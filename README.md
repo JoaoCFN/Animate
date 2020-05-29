@@ -49,11 +49,11 @@ Para usar o script, você deve adicioná-lo a pasta do seu projeto e seguir os p
 
  #### Lista de métodos :page_facing_up:
 
- **Obrigatório: recebe o elemento e incia a animação do mesmo :fire:**
+ **:fire: Obrigatório: recebe o elemento e incia a animação do mesmo**
 
  `startAnimate(element, time = 1)`
 
- **Unidirecionais: recebem o elemento a ser animado e valor do deslocamento em pixels :star:**
+ **:star: Unidirecionais: recebem o elemento a ser animado e valor do deslocamento em pixels**
 
  `setAnimationUp(element, value)`
 
@@ -63,15 +63,15 @@ Para usar o script, você deve adicioná-lo a pasta do seu projeto e seguir os p
 
  `setAnimationLeft(element, value)` 
 
- **MultiDirecionais: recebe o elemento a ser animado e os valores de deslocamento em pixels :star:**
+ **:star: MultiDirecionais: recebe o elemento a ser animado e os valores de deslocamento em pixels**
 
  `setCustomAnimation(element, x, y, z = 0)`
 
- **De escrita: recebe o texto a ser animado e o escreve na tela :star:**
+ **:star:De escrita: recebe o texto a ser animado e o escreve na tela**
 
  `setAnimationWrite(element)`
 
- **De opacidade: recebe o elemento a ser animado e faz a transição na opacidade :star:**
+ **:star: De opacidade: recebe o elemento a ser animado e faz a transição na opacidade**
 
  `setAnimationOpacity(element)`
  
