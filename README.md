@@ -49,11 +49,11 @@ Para usar o script, você deve adicioná-lo a pasta do seu projeto e seguir os p
 
  #### Lista de métodos :page_facing_up:
 
- **:fire: Obrigatório: recebe o elemento e incia a animação do mesmo**
+ **:fire: Obrigatório: recebe o elemento e inicia a animação do mesmo**
 
  `startAnimate(element, time = 1)`
 
- **:star: Unidirecionais: recebem o elemento a ser animado e valor do deslocamento em pixels**
+ **:star: Unidirecionais: recebem o elemento a ser animado e o valor do deslocamento em pixels**
 
  `setAnimationUp(element, value)`
 
